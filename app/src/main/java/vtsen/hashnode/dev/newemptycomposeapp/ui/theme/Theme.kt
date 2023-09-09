@@ -91,7 +91,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun NewEmptyComposeAppTheme(
+fun ViewModelFactoryExampleAppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     useSystemUIController: Boolean = true,
     content: @Composable () -> Unit,

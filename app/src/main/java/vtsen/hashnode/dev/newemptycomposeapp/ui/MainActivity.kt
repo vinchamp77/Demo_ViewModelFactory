@@ -25,7 +25,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import vtsen.hashnode.dev.newemptycomposeapp.ui.screens.MainScreen
-import vtsen.hashnode.dev.newemptycomposeapp.ui.theme.NewEmptyComposeAppTheme
+import vtsen.hashnode.dev.newemptycomposeapp.ui.theme.ViewModelFactoryExampleAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            NewEmptyComposeAppTheme {
+            ViewModelFactoryExampleAppTheme {
                 MainScreen()
             }
         }
