@@ -4,7 +4,7 @@
 - Android Studio Giraffe or later
 
 ## Articles
-- TBD
+- [Simplify ViewModelProvider.Factory() Implementation with Kotlin Lambda and Object Expressions](https://vtsen.hashnode.dev/simplify-viewmodelproviderfactory-implementation-with-kotlin-lambda-and-object-expressions)
 
 ## License
 ```
