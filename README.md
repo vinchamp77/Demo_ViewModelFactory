@@ -1,4 +1,4 @@
-# View Model Creation Examples
+# View Model Factory Implementation Examples
 
 ## Requirements
 - Android Studio Giraffe or later
