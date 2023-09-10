@@ -56,19 +56,19 @@ fun WithHelperFunctions() {
     val aViewModel: AViewModel = viewModel(
         factory = createViewModelFactory {
             AViewModel(ARepository())
-        }
+        },
     )
 
     val bViewModel: BViewModel = viewModel(
         factory = createViewModelFactory {
             BViewModel(BRepository())
-        }
+        },
     )
 
     val cViewModel: CViewModel = viewModel(
         factory = createViewModelFactory {
             CViewModel(CRepository())
-        }
+        },
     )
 }
 
